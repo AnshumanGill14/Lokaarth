@@ -42,6 +42,10 @@
     font-weight: 70;
 }
 
+.headerText{
+    text-align: justify;
+}
+
 .headerHeading span{
     font-weight: 600;
 }

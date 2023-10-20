@@ -5,20 +5,20 @@ import flowLine from "../../assets/Vector 9.png"
 
 const WorkData = [
     {
-        heading: 'Target your audience effectively',
-        information: 'Using basic skills you can improve your business stuff with Around Using basic skills'
+        heading: 'Transparency',
+        information: "Lokarth is committed to fostering transparency in the political process. It values open and accessible information, ensuring citizens have a clear view of political activities, policies, and decision-making."
     },
     {
-        heading: 'Build dashboard in minutes',
-        information: 'Using basic skills you can improve your business stuff with Around Using basic skills you can.'
+        heading: 'Empowerment',
+        information: 'Lokarth seeks to empower citizens, political parties, and elected representatives. It values the empowerment of individuals to voice their concerns, make informed decisions, and actively participate in the democratic process.'
     },
     {
-        heading: 'Easily download your tables and',
-        information: 'Using basic skills you can improve your business stuff with Around Using basic skills'
+        heading: 'Inclusivity',
+        information: 'Lokarth believes in inclusivity, ensuring every eligible citizen can register, vote, and engage in the political landscape. It values the diversity of perspectives and voices.'
     },
     {
-        heading: 'Access to dashboard  from all',
-        information: 'Using basic skills you can improve your business stuff with Around Using basic skills'
+        heading: 'Collaboration',
+        information: 'Lokarth encourages collaboration between citizens, political parties, and elected representatives. It values working together to address challenges, find solutions, and build a stronger democracy.'
     },
 ];
 
@@ -28,10 +28,13 @@ const WorkFlowChart = () => {
             <div className='total'>
 
                 <div className='head1'>
-                    <p>How Does It Work?</p>
+                    <p>Our Core Values</p>
+                </div>
+                <div className='head3'>
+                    <p>Our Guiding Principles and Pillars of Commitment</p>
                 </div>
                 <div className='head2'>
-                    <p>Using basic skills you can improve your business stuff with Around</p>
+                    <p>Lokarth holds a steadfast dedication to the pursuit of democratic excellence, and our unwavering commitment is firmly rooted in a comprehensive set of core values that unequivocally define and underpin our mission. These core values are not merely statements, but the guiding principles that infuse life and purpose into our digital platform.</p>
                 </div>
 
                 <div className='flow'>

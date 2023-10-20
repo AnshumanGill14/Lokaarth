@@ -12,33 +12,43 @@ const gridData = [
 
     {
         photo: icon1,
-        heading: 'Sync people & companies',
-        info: "All of your HubSpot, Intercom, and Slack customers, all in one place with a two way sync."
+        heading: 'Voter Registration and Verification',
+        info: "Lokarth enables citizens to register as voters and verify their eligibility to participate in the democratic process."
     },
     {
         photo: icon2,
-        heading: 'Fast search',
-        info: "Hit cmd+K and start searching for a customer, whether it be a person or a company."
+        heading: 'Grievance Management',
+        info: "A platform for citizens to report grievances and issues, which will be routed to the appropriate representatives for resolution."
     },
     {
         photo: icon3,
-        heading: 'Auto merge',
-        info: "Got a customer in both Intercom and HubSpot? No worries, they’re automatically merged in Nexus."
+        heading: 'Political Matchmaking',
+        info: "Lokarth matches citizens with political parties and candidates whose platforms align with their values and beliefs."
     },
     {
         photo: icon4,
-        heading: 'Link feedback to customers',
-        info: "Automatically fetch the right customer or create a new one in Nexus."
+        heading: 'Polling Campaign',
+        info: "Facilitate creating and managing political polling campaigns, allowing citizens to participate and view campaign progress."
     },
     {
         photo: icon5,
-        heading: 'Filter views',
-        info: "Each customer has a profile that aggregates their feedback and related product initiatives."
+        heading: 'Membership Insights',
+        info: "Gain a deep understanding of platform members and their political affiliations. Analyze user engagement and facilitate formal party affiliations to empower a more informed and engaged citizenry."
     },
     {
         photo: icon6,
-        heading: 'Customer profiles',
-        info: "Each customer has a profile that aggregates their feedback and related product initiatives."
+        heading: 'Survey Integration',
+        info: "Users can participate in surveys, and the results can be analyzed to provide valuable insights and inform decision-making processes."
+    },
+    {
+        photo: icon2,
+        heading: 'Integrated Analytics Center',
+        info: "A central platform to unify data analysis, report management, and user engagement tracking, fostering data-driven decision-making for a well-informed and responsive democracy."
+    },
+    {
+        photo: icon3,
+        heading: 'Stakeholder & Volunteer Unity',
+        info: "Facilitate active participation and unity among citizens, political parties, and elected representatives while managing and assigning volunteers to polling booths and voting locations on election day."
     },
 
 ]
@@ -48,10 +58,15 @@ const SyncCustomers = () => {
         <div className='comp6'>
             <div className='mainContainer1'>
                 <div className='h6_1'>
-                    <p>Sync your customers</p>
+                    <p>Lokarth Feature Highlights</p>
                 </div>
+                <div className='h6_4'>
+                    <p>Our Robust Offerings to Strengthen and Empower Democracy</p>
+                </div>
+                <div className='h6_2_outer'>
                 <div className='h6_2'>
-                    <p>Turn Nexus into a CRM for your product team by bringing your customers from HubSpot, Intercom, and Slack.</p>
+                    <p>Lokarth brings you a dynamic array of features meticulously designed to empower citizens, connect political parties with their constituents, and enable elected representatives to fulfil their promises.</p>
+                </div>
                 </div>
 
                 <div className='gridOuter'>
@@ -65,7 +80,7 @@ const SyncCustomers = () => {
                                         <img src={grid?.photo} alt='iconimage' />
                                     </div>
                                     <div className='h6_3'>
-                                        <p>{grid?.heading}</p>
+                                        <p className={grid.heading.length>27 ? "exception":"normal"}>{grid?.heading}</p>
                                     </div>
                                     <div className='txt6'>
                                         <p>{grid?.info}</p>
